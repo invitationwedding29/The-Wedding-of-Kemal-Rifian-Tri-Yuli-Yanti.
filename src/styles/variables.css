@@ -1,0 +1,35 @@
+/* ===================================================
+   PALET WARNA RESMI 70:20:10 (SESUAI ATURAN KETAT)
+   70% Krem (#F7F1EA / #EFE4D8 - Latar)
+   20% Marun (#6B1A2C / #521321 - Hero, Ucapan, Tombol, Footer)
+   10% Emas (#C9A27A - Garis, Label, Ornamen, Segel)
+   =================================================== */
+
+:root {
+  /* 70% KREM (LATAR SECTION BERSELANG-SELING) */
+  --color-cream: #F7F1EA;
+  --color-cream-dark: #EFE4D8;
+  --color-cream-card: #FFFFFF;
+
+  /* 20% MARUN (HERO, UCAPAN, TOMBOL, FOOTER) */
+  --color-maroon: #6B1A2C;
+  --color-maroon-dark: #521321;
+  --color-maroon-hover: #450F1B;
+
+  /* 10% EMAS (GARIS, LABEL, ORNAMEN, SEGEL) */
+  --color-gold: #C9A27A;
+  --color-gold-light: #E0C4A4;
+  --color-gold-dark: #A37F59;
+  --color-gold-glow: rgba(201, 162, 122, 0.35);
+
+  /* TIPOGRAFI SESUAI SPESIFIKASI */
+  --font-script: 'Pinyon Script', cursive;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', sans-serif;
+  --font-caps: 'Montserrat', sans-serif;
+
+  /* TRANSISI */
+  --transition-fast: 0.25s ease;
+  --transition-normal: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  --transition-slow: 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
